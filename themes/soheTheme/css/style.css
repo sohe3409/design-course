@@ -33,6 +33,7 @@
 
 html, body {
     height: 100%;
+    background-color: #eee;
 }
 
 body {
@@ -49,7 +50,7 @@ body {
 }
 
 .main {
-    padding: 5em 0 4em;
+    padding: 2em 0 4em;
 }
 
 .container {
@@ -71,12 +72,12 @@ body {
 /*** BASIC LAYOUT: HEADER ***/
 
 .header {
-    background: #fff;
+    background: #eee;
 }
 
 .title, .logo {
     float: left;
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 0;
 }
 
 .title * {
@@ -153,18 +154,19 @@ body {
 }
 
 .flash-img {
+    width: 1000px;
     height: 100%;
 }
 
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #707070;
-    color: #c0c0c0;
+    background: #d8bfd8;
+    color: #000;
 }
 
 .footer a {
-    color: #ddd;
+    color: #000;
 }
 
 .footer a:hover {
@@ -178,8 +180,8 @@ body {
 
 .footer .social {
     float: right;
-    padding: 1.5em 0 1.5em 1em;
-    font-size: 2rem;
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 3rem;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
