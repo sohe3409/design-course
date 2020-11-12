@@ -1,11 +1,12 @@
 ---
 Title: Report
 Description: The course report page
+icon: fas fa-feather-alt
 ---
 
 Redovisningssida för design
 ==================
-
+<hr class = "line">
 * [kmom01](report/kmom01)
 * [kmom02](report/kmom02)
 * [kmom03](report/kmom03)
