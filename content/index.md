@@ -18,6 +18,3 @@ Efter gymnasiet flyttade jag till Shanghai och studerade kinesiska på ett unive
 Min bror som alltid satt inne på sitt rum med neddragna persienner och sina datorer - han meckade ihop från elektroniksorteringen i soprummet - är den som fick mig intresserad av programmering. Han sa till mig att ”programmering är kreativt och nördigt precis som du”. Jag har länge tänkt att jag borde komma igång med det och nu är jag här.
 
 Ses i chatten!
-<div class="flash-region">
-  <img class="flash-img" src="{{ base_url }}/../assets/img/flash.jpg?sc=banner1&a=40,0,0,0">
-</div>
