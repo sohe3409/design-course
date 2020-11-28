@@ -6504,7 +6504,7 @@ readers do not read off random characters that represent icons */
 }
 .nav a,
 .nav .nav-toggle {
-  color: #444;
+  color: #f3ebf3;
   font-size: 2em;
 }
 .nav .active a,
@@ -6514,11 +6514,11 @@ readers do not read off random characters that represent icons */
 
 .nav-toggle {
   display: none;
-  color: #444;
+  color: #f3ebf3;
 }
 
 .nav-toggle:hover {
-  color: #f3ebf3;
+  color: #787578;
   text-decoration: underline;
 }
 
@@ -6703,21 +6703,21 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f3ebf3;
+  background-color: #787578;
 }
 .kmom-box h2 {
   width: 100%;
-  color: #333;
+  color: #eee;
   text-align: center;
   padding: 0.5em;
-  background-color: #d8bfd8;
+  background-color: #2b262b;
 }
 .kmom-box p {
   font-size: 1rem;
   margin: 0;
 }
 .kmom-box a {
-  color: #000;
+  color: #fff;
   font-size: 2rem;
 }
 .kmom-box a:hover {
@@ -6763,14 +6763,14 @@ hr {
   opacity: 0.7;
 }
 .sidebar a {
-  color: #000;
+  color: #fff;
   font-size: 1.9rem;
   padding-bottom: 1em;
   padding-top: 0.7em;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid #f3ebf3;
 }
 .sidebar a:hover {
-  color: #d8bfd8;
+  color: #2b262b;
 }
 
 .kmom-text {
@@ -6778,11 +6778,11 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 2em;
-  background-color: #d8bfd8;
+  background-color: #2b262b;
   min-height: 700px;
 }
 .kmom-text p {
-  color: #333;
+  color: #eee;
 }
 
 .pre-next {
@@ -6818,11 +6818,11 @@ hr {
     justify-content: center;
   }
   .pre-next a {
-    color: #444;
+    color: #f3ebf3;
     padding: 0 0.5em;
   }
   .pre-next a:hover {
-    color: #000;
+    color: #fff;
   }
 
   .sidebar {
@@ -6904,16 +6904,26 @@ hr {
   font-family: "Roboto", sans-serif;
 }
 
+.header,
+.sidebar {
+  filter: brightness(90%);
+  opacity: 90%;
+}
+
+.nav a {
+  color: #444;
+}
+
 html,
 body {
   height: 100%;
-  background-color: #f3ebf3;
+  background-color: #787578;
 }
 
 body {
   font-size: 1rem;
   line-height: 1.6;
-  color: #444;
+  color: #f3ebf3;
   overflow-y: scroll;
 }
 
@@ -6926,7 +6936,7 @@ h6 {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
 
 p {
@@ -6943,14 +6953,14 @@ p {
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
-  background: #d8bfd8;
-  color: #000;
+  background: #2b262b;
+  color: #fff;
 }
 .footer a {
-  color: #333;
+  color: #fff;
 }
 .footer a:hover {
-  color: #f3ebf3;
+  color: #787578;
 }
 .footer p {
   margin: 0;

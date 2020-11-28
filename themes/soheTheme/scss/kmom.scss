@@ -1,7 +1,7 @@
 .reportpage {
     display: grid;
-    gap: 0 3em;
-    padding: 0 15%;
+    gap: 0 3.5em;
+    padding: 0 17.5%;
     grid-template-columns: 250px auto;
 }
 
@@ -16,22 +16,21 @@
     flex-direction: column;
     align-items: center;
     padding: 2em;
-    min-height: 720px;
-    max-height: 720px;
+    min-height: 800px;
+    max-height: 800px;
     background-image: url('bar2.jpg');
-    opacity: 0.6;
+    opacity: 0.7;
 
     a {
-        color: #000;
-        font-size: 1.8rem;
+        color: $intense-color;
+        font-size: 1.9rem;
         padding-bottom: 1em;
-        padding-top: 0.5em;
-        border-bottom: 2px solid #333;
+        padding-top: 0.7em;
+        border-bottom: 2px solid $text-color;
     }
 
     a:hover {
         color: $primary-color;
-
     }
 }
 
@@ -42,6 +41,9 @@
     padding: 2em;
     background-color: $primary-color;
     min-height: 700px;
+    p {
+        color: $text2-color
+    }
 }
 
 .pre-next {
@@ -80,12 +82,12 @@
         justify-content: center;
 
         a {
-            color: #444;
+            color: $text-color;
             padding: 0 0.5em;
         }
-        
+
         a:hover {
-            color: #000;
+            color: $intense-color;
         }
     }
 

@@ -28,7 +28,7 @@ Redovisningssida
 
 <div class="kmom-box">
     <h2>Kmom04</h2>
-    <p>...</p>
+    <p>Färger och första rapporten</p>
     <a href="report/kmom04"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>
 

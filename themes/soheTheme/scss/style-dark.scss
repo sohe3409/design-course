@@ -1,5 +1,5 @@
-@import 'variables';
 @import 'typo';
+@import 'variables-dark';
 @import 'header';
 @import 'old';
 @import 'report';
@@ -8,6 +8,16 @@
 
 * {
     font-family: $font-stack;
+}
+
+.header,
+.sidebar {
+    filter: brightness(90%);
+    opacity: 90%;
+}
+
+.nav a {
+    color: #444;
 }
 
 html,
@@ -57,7 +67,7 @@ p {
     color: $intense-color;
 
     a {
-        color: $text2-color;
+        color: $intense-color;
     }
 
     a:hover {
@@ -79,7 +89,6 @@ p {
 
 
 @media (max-width: 767px) {
-
     h1 {
         text-align: center;
         margin: 0.5em;
