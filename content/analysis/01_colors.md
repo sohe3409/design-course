@@ -45,7 +45,7 @@ Färg och Typografi
 
 <img class="page-img" src="../assets/img/folkhm.png">
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em;">
   <tr>
     <td style="height: 50px; width: 50px; background-color: #2D5492">
     <td style="height: 50px; width: 50px; background-color: #FED969">
@@ -64,7 +64,7 @@ Färg och Typografi
 <a href="https://www.forsakringskassan.se/"><h2>Försäkringskassan:</h2></a>
 
 <img class="page-img" src="../assets/img/fk.png">
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em">
   <tr>
     <td style="height: 50px; width: 50px; background-color: #0E5532">
     <td style="height: 50px; width: 50px; background-color: #116a3e">
@@ -84,7 +84,7 @@ Färg och Typografi
 
 <img class="page-img" src="../assets/img/CSN.png">
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em;">
   <tr>
     <td style="height: 50px; width: 50px; background-color: #3C1E5F">
     <td style="height: 50px; width: 50px; background-color: #E4022D">

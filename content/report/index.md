@@ -34,7 +34,7 @@ Redovisningssida
 
 <div class="kmom-box">
     <h2>Kmom05</h2>
-    <p>...</p>
+    <p>Bilder och andra rapporten</p>
     <a href="report/kmom05"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>
 

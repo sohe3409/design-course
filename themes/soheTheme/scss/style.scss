@@ -5,6 +5,7 @@
 @import 'report';
 @import 'kmom';
 @import 'analysis';
+@import 'gallery';
 
 * {
     font-family: $font-stack;
@@ -79,6 +80,10 @@ p {
 
 
 @media (max-width: 767px) {
+    .header {
+        background-image: 0.5;
+    }
+
     h1 {
         text-align: center;
         margin: 0.5em;

@@ -1,5 +1,6 @@
 .header {
     background-image: url('FLASH9.jpg');
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -29,7 +30,7 @@
 
 .nav {
     text-align: right;
-    padding: 3em 0;
+    padding: 3em 1em;
     text-align: right;
 
     ul {
@@ -75,12 +76,14 @@
     display: block;
     clear: both;
 }
+@media (max-width: 992px) {
+    .header {
+        text-align: center;
+        background-image: url('FLASH90.jpg');
+    }
+}
 
 @media (max-width: 767px) {
-    header {
-        text-align: center;
-    }
-
     .nav {
         clear: both;
         padding: 0;
@@ -98,7 +101,7 @@
 
     .nav ul li a {
         display: block;
-        padding: 0.5em 0;
+        padding: 0.25em 0;
     }
 
     .js .nav-toggle {

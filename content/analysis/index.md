@@ -16,7 +16,7 @@ Analystexter
 
 <div class="kmom-box">
     <h2>Load time</h2>
-    <p>...</p>
+    <p>Analys av laddningstid och användbarhet</p>
     <a href="analysis/02_load"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>
 
