@@ -29,7 +29,7 @@ Kursmoment 2
 
 
     <div class="pre-next">
-        <a href="kmom01"><i class="fas fa-caret-left"></i></a>
-        <a href="kmom03"><i class="fas fa-caret-right"></i></a>
+        <a href="kmom01" aria-label="kmom01"><i class="fas fa-caret-left"></i></a>
+        <a href="kmom03" aria-label="Kmom03"><i class="fas fa-caret-right"></i></a>
     </div>
 </div>

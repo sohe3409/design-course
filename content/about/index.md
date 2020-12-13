@@ -1,7 +1,6 @@
 ---
 Title: About
 Description: About this page.
-icon: fas fa-cubes
 ---
 
 About page

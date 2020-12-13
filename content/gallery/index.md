@@ -1,7 +1,6 @@
 ---
 Title: Gallery
 Description: My gallery.
-icon: fas fa-camera
 template: gallery
 images:
     - alt: picture
@@ -29,4 +28,5 @@ images:
     - alt: picture
       url: varosha12.jpg
 ---
-  
+Varosha
+=======================

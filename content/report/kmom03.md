@@ -24,7 +24,7 @@ Kursmoment 3
     <p>Min TIL för detta kursmoment är att inte vara rädd för att leka runt. Kursen heter ju faktiskt Design, så jag försökte denna vecka testa runt lite mer med det visuella. Bland annat testade jag att använda mig av bilder som bakgrund istället för bara färg. Ens försök leder inte alltid till det bättre, men man lär sig mycket och får chans att utforska möjligheterna.</p>
 
     <div class="pre-next">
-        <a href="kmom02"><i class="fas fa-caret-left"></i></a>
-        <a href="kmom04"><i class="fas fa-caret-right"></i></a>
+        <a href="kmom02" aria-label="kmom02"><i class="fas fa-caret-left"></i></a>
+        <a href="kmom04" aria-label="kmom04"><i class="fas fa-caret-right"></i></a>
     </div>
 </div>

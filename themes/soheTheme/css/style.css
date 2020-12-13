@@ -6459,13 +6459,11 @@ readers do not read off random characters that represent icons */
 
 .header {
   background-image: url("FLASH9.jpg");
+  background-repeat: no-repeat;
 }
 
 .logo {
   height: 12em;
-}
-
-.logo {
   float: left;
 }
 
@@ -6488,7 +6486,7 @@ readers do not read off random characters that represent icons */
 
 .nav {
   text-align: right;
-  padding: 3em 0;
+  padding: 3em 1em;
   text-align: right;
 }
 .nav ul {
@@ -6505,11 +6503,11 @@ readers do not read off random characters that represent icons */
 .nav a,
 .nav .nav-toggle {
   color: #444;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .nav .active a,
 .nav a:hover {
-  color: #DF81DF;
+  color: #df81df;
 }
 
 .nav-toggle {
@@ -6529,11 +6527,13 @@ readers do not read off random characters that represent icons */
   clear: both;
 }
 
-@media (max-width: 767px) {
-  header {
+@media (max-width: 992px) {
+  .header {
     text-align: center;
+    background-image: url("FLASH90.jpg");
   }
-
+}
+@media (max-width: 767px) {
   .nav {
     clear: both;
     padding: 0;
@@ -6551,7 +6551,7 @@ readers do not read off random characters that represent icons */
 
   .nav ul li a {
     display: block;
-    padding: 0.5em 0;
+    padding: 0.25em 0;
   }
 
   .js .nav-toggle {
@@ -6627,11 +6627,6 @@ body {
   max-width: 72em;
 }
 
-/* very ugly overflow fix, avoid this whenever possible! */
-.main .container {
-  overflow-x: auto;
-}
-
 /*** BASIC LAYOUT: HEADER ***/
 /*** TYPOGRAPHY ***/
 p, td, th, li, dd {
@@ -6690,6 +6685,7 @@ hr {
   display: grid;
   gap: 0.5em 2em;
   padding: 0 15%;
+  grid-template-columns: 400px 400px 400px;
   justify-content: center;
 }
 
@@ -6721,7 +6717,7 @@ hr {
   font-size: 2rem;
 }
 .kmom-box a:hover {
-  color: #DF81DF;
+  color: #df81df;
 }
 
 .kmom-box.project {
@@ -6789,6 +6785,24 @@ hr {
   display: none;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 767px) {
   .reportpage {
     grid-column: 1/1;
@@ -6832,8 +6846,8 @@ hr {
 .analysispage {
   display: grid;
   gap: 0 5em;
-  padding: 0 8%;
-  grid-template-columns: 40% 55%;
+  padding: 0 7%;
+  grid-template-columns: 40% 54%;
 }
 .analysispage h1 {
   grid-column: span 2;
@@ -6849,7 +6863,7 @@ hr {
 .report .intro {
   color: #444;
   background-color: #fff;
-  border: 3px solid #DF81DF;
+  border: 3px solid #df81df;
   border-style: dotted;
   border-radius: 20px;
   padding: 1em;
@@ -6861,43 +6875,103 @@ hr {
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  padding: 1em;
+  padding: 2em;
   border-radius: 25px;
 }
 .result h2 {
   padding-top: 1em 0;
-  border-bottom: 4px solid #DF81DF;
+  margin-bottom: 1em;
+  border-bottom: 4px solid #df81df;
   color: #333;
 }
 .result a:hover {
-  opacity: 0.7;
+  opacity: 0.6;
+}
+.result .mini {
+  position: relative;
 }
 .result .page-img {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 1em;
 }
-.result table {
-  padding: 2em 0 1em 0;
+.result .page-img.sr,
+.result .winner-txt {
+  padding: 1em;
+  border: 3px solid #ffd700;
+  border-style: dotted;
+  border-radius: 15px;
+}
+.result .page-img.load {
+  opacity: 0.7;
+}
+.result .centered {
+  position: absolute;
+  color: #ffd700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
 }
 .result .result-txt {
   width: 90%;
-  border: 3px solid #DF81DF;
+  border: 3px solid #df81df;
   border-style: dotted;
   border-radius: 20px;
   padding: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
-.result .result-txt p {
+.result p {
   color: #444;
   margin-bottom: 0.3em;
+}
+.result .r-link {
+  text-decoration: underline;
+  padding-bottom: 0.5em;
 }
 
 @media (max-width: 767px) {
   .anlysispage h1,
 .report,
 .result {
-    grid-column: span 1;
+    grid-column: span 3;
+    padding: 1em 0;
+  }
+  .anlysispage h1 p,
+.report p,
+.result p {
+    padding: 0;
+  }
+
+  .analysispage {
+    grid-template-columns: auto;
+  }
+}
+.gallery {
+  width: 90%;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em 1em;
+}
+.gallery img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 95%;
+    margin: 2.5%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: 1fr;
   }
 }
 * {
@@ -6935,7 +7009,7 @@ p {
 }
 
 .line {
-  border: 2px solid #DF81DF;
+  border: 2px solid #df81df;
   width: 50%;
   text-align: left;
   margin-left: 0;
@@ -6964,6 +7038,10 @@ p {
 }
 
 @media (max-width: 767px) {
+  .header {
+    background-image: 0.5;
+  }
+
   h1 {
     text-align: center;
     margin: 0.5em;
@@ -6982,6 +7060,6 @@ p {
   }
 
   .footer .social {
-    padding: 0.5em 0 0.5em 1em;
+    padding: 0.5em 1em;
   }
 }

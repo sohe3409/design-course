@@ -25,6 +25,6 @@ Kursmoment 1
     <p>Min TIL för detta kursmoment är hur mycket olika program och verktyg det faktiskt finns för design, och för underlättandet av programmerarens arbete. Det känns även spännande och viktigt att lära sig använda github och andra program som gör det möjligt att samarbeta med andra personer i egna projekt, och senare i framtiden även på arbetsmarknaden.</p>
 
   <div class="pre-next">
-    <a href="kmom02"><i class="fas fa-caret-right"></i></a>
+    <a href="kmom02" aria-label="kmom02"><i class="fas fa-caret-right"></i></a>
   </div>
 </div>

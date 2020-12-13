@@ -39,7 +39,7 @@ Laddningstid
 
 <a href="https://sverigesradio.se/"><h2>Sveriges Radio:</h2></a>
 <div class="mini">
-    <img class="page-img load sr" src="../assets/img/sr.png">
+    <img class="page-img load sr" alt="webpage" src="../assets/img/sr.png">
     <h1 class="centered">Vinnaren!</h1>
 </div>
 <div class="result-txt">
@@ -48,7 +48,7 @@ Laddningstid
 
 <a href="https://www.expressen.se/"><h2>Expressen:</h2></a>
 <div class="mini">
-    <img class="page-img load" src="../assets/img/expressen.png">
+    <img class="page-img load" alt="webpage" src="../assets/img/expressen.png">
     <h1 class="centered">2</h1>
 </div>
 
@@ -59,7 +59,7 @@ Laddningstid
 
 <a href="https://www.vice.com/en"><h2>VICE:</h2></a>
 <div class="mini">
-    <img class="page-img load" src="../assets/img/vice.png">
+    <img class="page-img load" alt="webpage" src="../assets/img/vice.png">
     <h1 class="centered">3</h1>
 </div>
 

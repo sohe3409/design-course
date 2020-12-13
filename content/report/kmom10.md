@@ -20,6 +20,6 @@ Kursmoment 10 / Projekt
     <p>Kommer snart..</p>
 
     <div class="pre-next">
-        <a href="kmom06"><i class="fas fa-caret-left"></i></a>
+        <a href="kmom06" aria-label="kmom06"><i class="fas fa-caret-left"></i></a>
     </div>
 </div>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="no-js">
+
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,29 +34,29 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
+                <div class="logo">
+                    <a href="{{ "index"|link }}" aria-label="Home">
                         <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                     </a>
                 </div>
             {% endif %}
-            <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <!-- <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
                 <a href="{{ "index"|link }}">
                     <h1>{{ site_title }}</h1>
                     {{ pages["_meta"].meta.tagline|markdown }}
                 </a>
-            </div>
+            </div> -->
             <div class="nav">
                 <div id="nav" role="navigation" tabindex="-1">
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">
+                                <a href="{{ page.url }}" {% if page.meta.icon %} aria-label="{{ page.title }}"{% endif %}>
                                   {% if page.meta.icon %}
                                     <i class="{{ page.meta.icon }}"></i>
                                   {% else %}
@@ -72,8 +73,8 @@
             </div>
         </div>
     </div>
-    <div class="main" role="main">
-        <div class="container">
+    <div class="main-index" role="main">
+        <div class="contain">
             {{ content }}
         </div>
     </div>

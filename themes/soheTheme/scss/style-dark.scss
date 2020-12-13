@@ -21,6 +21,13 @@
     color: #444;
 }
 
+.contain {
+    max-width: 53em;
+    margin: 0 auto;
+    padding: 2em;
+    background-image: linear-gradient(to right, $primary-color , $high-color);
+}
+
 html,
 body {
     height: 100%;
@@ -94,6 +101,14 @@ p {
         filter: brightness(75%);
     }
 
+    .main {
+        padding: 0;
+    }
+
+    .contain {
+        padding: 0.5em;
+    }
+
     h1 {
         text-align: center;
         margin: 0.5em;
@@ -104,7 +119,8 @@ p {
     }
 
     .line {
-        width: 100%;
+        width: 80%;
+        margin-left: 2em;
     }
 
     .footer p {

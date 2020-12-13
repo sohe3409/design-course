@@ -43,7 +43,7 @@ Färg och Typografi
 <div class="result">
 <a href="https://www.folkhalsomyndigheten.se/"><h2>Folkhälsomyndigheten:</h2></a>
 
-<img class="page-img" src="../assets/img/folkhm.png">
+<img class="page-img" alt="webpage" src="../assets/img/folkhm.png">
 
 <table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em;">
   <tr>
@@ -63,7 +63,7 @@ Färg och Typografi
 
 <a href="https://www.forsakringskassan.se/"><h2>Försäkringskassan:</h2></a>
 
-<img class="page-img" src="../assets/img/fk.png">
+<img class="page-img" alt="webpage" src="../assets/img/fk.png">
 <table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em">
   <tr>
     <td style="height: 50px; width: 50px; background-color: #0E5532">
@@ -82,7 +82,7 @@ Färg och Typografi
 
 <a href="https://www.csn.se/"><h2>CSN:</h2></a>
 
-<img class="page-img" src="../assets/img/CSN.png">
+<img class="page-img" alt="webpage" src="../assets/img/CSN.png">
 
 <table style="border-spacing: 4px; border-collapse: separate; margin: 2em 0 1em;">
   <tr>

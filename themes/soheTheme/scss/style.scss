@@ -11,6 +11,13 @@
     font-family: $font-stack;
 }
 
+.contain {
+    max-width: 53em;
+    margin: 0 auto;
+    padding: 1em 2.5em;
+    background-image: linear-gradient(to right, $primary-color , $high-color);
+}
+
 html,
 body {
     height: 100%;
@@ -84,6 +91,14 @@ p {
         background-image: 0.5;
     }
 
+    .contain {
+        padding: 0.5em;
+    }
+
+    .main {
+        padding: 0;
+    }
+
     h1 {
         text-align: center;
         margin: 0.5em;
@@ -94,7 +109,8 @@ p {
     }
 
     .line {
-        width: 100%;
+        width: 80%;
+        margin-left: 2em;
     }
 
     .footer p {

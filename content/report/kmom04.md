@@ -25,7 +25,7 @@ Kursmoment 4
 
 
     <div class="pre-next">
-        <a href="kmom03"><i class="fas fa-caret-left"></i></a>
-        <a href="kmom05"><i class="fas fa-caret-right"></i></a>
+        <a href="kmom03" aria-label="kmom03"><i class="fas fa-caret-left"></i></a>
+        <a href="kmom05" aria-label="kmom05"><i class="fas fa-caret-right"></i></a>
     </div>
 </div>

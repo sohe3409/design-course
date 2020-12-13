@@ -4,11 +4,11 @@
     padding: 0 15%;
     grid-template-columns: 400px 400px 400px;
     justify-content: center;
-}
 
-.landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
 }
 
 .kmom-box {
@@ -47,13 +47,15 @@
 }
 
 @media (max-width: 767px) {
+    .landingpage {
+        padding: 0;
+        grid-template-columns: 100%;
+    }
+
     .landingpage h1,
     .kmom-box,
     .kmom-box.project {
         grid-column: span 1;
-    }
-
-    .landingpage {
-        grid-template-columns: 100%;
+        margin-bottom: 0.5em;
     }
 }

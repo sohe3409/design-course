@@ -7,7 +7,6 @@
     h1 {
         grid-column: span 2;
         text-align: center;
-        padding-bottom: 1em;
     }
 }
 
@@ -56,6 +55,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 1em;
+        position: relative;
     }
 
     .page-img.sr,
@@ -73,7 +73,7 @@
     .centered {
         position: absolute;
         color: #ffd700;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 4em;
@@ -95,7 +95,6 @@
     }
 
     .r-link {
-        color: $detail-color;
         text-decoration: underline;
         padding-bottom: 0.5em;
     }
@@ -109,6 +108,10 @@
 
         p {
             padding: 0;
+        }
+
+        .centered {
+            font-size: 3em;
         }
     }
 
