@@ -45,6 +45,6 @@ Redovisningssida
 
 <div class="kmom-box project">
     <h2>Kmom10/Projekt</h2>
-    <p>...</p>
+    <p>Projekt och fjärde rapporten</p>
     <a href="report/kmom10" aria-label="kmom"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>

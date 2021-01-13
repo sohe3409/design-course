@@ -24,3 +24,9 @@ Analystexter
     <p>Analys av designprinciper</p>
     <a href="analysis/03_design_principles" aria-label="analysis"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>
+
+<div class="kmom-box project">
+    <h2>Colors Project</h2>
+    <p>Analys av färger och typsnitt i projektet</p>
+    <a href="analysis/11_design-och-webbplatser" aria-label="analysis"><i class="far fa-arrow-alt-circle-right"></i></a>
+</div>
